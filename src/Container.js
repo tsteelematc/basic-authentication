@@ -62,3 +62,21 @@ const styles = {
 
 // Export the function as the default export...
 export default Container;
+
+//
+// repl.it ! ! ! Maybe ? ? ?
+//
+// Better example, go slow ! ! !
+//
+// const o = {
+//     children: [
+//       "Taylor"
+//       , "Jack"
+//     ]
+//   };
+  
+//   const {children} = o; 
+//   console.log(children);
+  
+//   const offspring = o.children;
+//   console.log(offspring);
