@@ -49,7 +49,7 @@ const Container = ({ children }) => (
     <div
         style={styles.container}
     >
-        { containers }
+        { children }
     </div>
 )
 
