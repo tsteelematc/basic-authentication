@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Container from './Container';
 import Public from './Public';
+import Nav from './Nav';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
         Hello World ! ! !
       </h1>
       <Public></Public>
+      {/* Commenting out components... VS Code Command + / rocks ! ! ! */}
+      {/* Can't really show Nav by itself, but errors might be nice to see, keep swimming... */}
+      {/* <Nav></Nav> */}
     </Container>
   );
 }
