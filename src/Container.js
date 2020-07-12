@@ -45,10 +45,12 @@ import React from 'react';
 // )
 
 // Then add styles...
-const Container = ({ children }) => (
+//const Container = (props) => (
+const Container = ({children}) => (
     <div
         style={styles.container}
     >
+        {/* { props.children } */}
         { children }
     </div>
 )
