@@ -15,7 +15,7 @@ const Nav = (props) => {
         </Menu.Item>
         <Menu.Item key='profile'>
           <Link to='/profile'>
-          <ProfileOutlined />>Profile
+          <ProfileOutlined />Profile
           </Link>
         </Menu.Item>
         <Menu.Item key='protected'>
