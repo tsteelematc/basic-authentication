@@ -4,7 +4,7 @@ import './App.css';
 import Container from './Container';
 import Public from './Public';
 //import Nav from './Nav';
-import Protected from './Protected';
+// import Protected from './Protected';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       {/* Can't really show Nav by itself, but errors might be nice to see, keep swimming... */}
       {/* <Nav></Nav> */}
 
-      <Protected></Protected>
+      {/* <Protected></Protected> */}
     </Container>
   );
 }
