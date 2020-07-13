@@ -1,5 +1,3 @@
-const { useEffect } = require("react");
-
 import 
     React
     ,  { 
@@ -77,7 +75,7 @@ const Router = () => {
 
     return (
         <HashRouter>
-        <Nav current={current} />
+        <Nav current={currentRoute} />
         <Switch>
           <Route exact path="/" component={Public}/>
           <Route exact path="/protected" component={Protected} />
