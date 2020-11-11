@@ -25,19 +25,15 @@ const Protected = (props) => {
     useEffect(
         // Function.
         () => {
-            Auth.currentAuthenticatedUser()
-                
-                //
-                // Hmm, must be a promise... Maybe refactor to async/await ! ! !
-                //
-                .catch(
-                    //
-                    // And we want to navigate to profile if error. In other
-                    // words, if the user IS NOT authenticated.
-                    () => {
-                        props.history.push('/profile');
-                    }
-                )
+            const checkIfUserAuthenticated = async () => {
+                try {
+                    await Auth.currentAuthenticatedUser()
+                }
+                catch {
+                    props.history.push('/profile');
+                }
+            };
+            checkIfUserAuthenticated();
         }
         // Array of dependent props.
         , []
