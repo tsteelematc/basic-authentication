@@ -23,6 +23,16 @@ const Nav = (props) => {
             <FileProtectOutlined />Protected
           </Link>
         </Menu.Item>
+        <Menu.Item key='morepublic'>
+          <Link to='/morepublic'>
+            More Public
+          </Link>
+        </Menu.Item>
+        <Menu.Item key='moreprotected'>
+          <Link to='/moreprotected'>
+            More Protected
+          </Link>
+        </Menu.Item>
       </Menu>
     </div>
   )

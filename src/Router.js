@@ -15,6 +15,8 @@ import Nav from './Nav';
 import Public from './Public'
 import Protected from './Protected';
 import Profile from './Profile';
+import MorePublic from './MorePublic';
+import MoreProtected from './MoreProtected';
 
 const Router = () => {
     //
@@ -80,6 +82,8 @@ const Router = () => {
           <Route exact path="/" component={Public}/>
           <Route exact path="/protected" component={Protected} />
           <Route exact path="/profile" component={Profile}/>
+          <Route exact path="/morepublic" component={MorePublic}/>
+          <Route exact path="/moreprotected" component={MoreProtected}/>
           <Route component={Public}/>
         </Switch>
       </HashRouter>
