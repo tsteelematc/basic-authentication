@@ -28,11 +28,11 @@ const Nav = (props) => {
             More Public
           </Link>
         </Menu.Item>
-        <Menu.Item key='moreprotected'>
+        {/* <Menu.Item key='moreprotected'>
           <Link to='/moreprotected'>
             More Protected
           </Link>
-        </Menu.Item>
+        </Menu.Item> */}
       </Menu>
     </div>
   )
